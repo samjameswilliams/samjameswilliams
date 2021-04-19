@@ -1,12 +1,12 @@
 ### Hi there 👋
 
-- :construction_worker_man: I'm a Civil Engineer working in the UK water industry interested in coding 
+- :construction_worker_man: I'm a Civil Engineer working in the UK water industry interested in using coding for solving engineering problems
 - 🔭 I’m currently working on ...
-- 🌱 I’m currently learning Python
-- 👯 I’m looking to collaborate on work related projects
-- 🤔 I’m looking for help with ...
+- 🌱 I’m currently learning Python and interested in MS Power apps
+- 👯 I’m looking to collaborate on civil engineering related projects
+- 🤔 I’m looking for help with GitHub
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - ⚡ Fun fact: ...
-- :latin_cross: 
+- :latin_cross: I am a christian
 -->
