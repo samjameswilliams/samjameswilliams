@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sams-notes"
+version = "0.1.0"
+description = "A repo for my faith and work related notes"
+authors = ["samjameswilliams <samjameswilliams1985@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sphinx = "^7.2.6"
+pydata-sphinx-theme = "^0.14.4"
+myst-parser = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

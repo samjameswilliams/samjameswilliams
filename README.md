@@ -5,4 +5,4 @@
 - I’m interested in learning SQL but never seem to get around to it
 - I am a christian
 
-I'm planning on making this repo the place where I store my faith and work related notes. Over the years I've lost so many useful notes I've made on this, that and the other I thought I'd try going digital. Also means that when I build my notes into html using Sphinx it'll be searchable.
+I'm planning on making this repo the place where I store my faith and work related notes. Over the years I've lost so many useful notes I've made on one thing and another I thought I'd try going digital. Also means that when I build my notes into html using Sphinx it'll be searchable.
