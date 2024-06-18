@@ -1,9 +1,9 @@
-Coding notes
-============
+ICE notes
+=========
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   links
+   level_6
 
