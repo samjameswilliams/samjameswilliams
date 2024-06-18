@@ -16,11 +16,3 @@ Sermon notes
    Ecc4-5b
    Ecc5c
    Ecc7a
-
-
-Indices and tables
-~~~~~~~~~~~~~~~~~~
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
