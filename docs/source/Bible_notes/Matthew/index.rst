@@ -3,15 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bible notes
-===========
+Matthew
+=======
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   Matthew/index
-   Revelation/index
+   5
+   7
+   18
+   21
 
    
 
