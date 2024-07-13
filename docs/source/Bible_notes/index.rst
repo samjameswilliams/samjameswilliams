@@ -10,6 +10,7 @@ Bible notes
    :maxdepth: 1
    :caption: Contents:
 
+   Job/index
    Matthew/index
    James/index
    Revelation/index
