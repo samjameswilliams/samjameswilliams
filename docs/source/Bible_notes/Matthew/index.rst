@@ -14,13 +14,3 @@ Matthew
    7
    18
    21
-
-   
-
-
-Indices and tables
-~~~~~~~~~~~~~~~~~~
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

@@ -11,14 +11,8 @@ Bible notes
    :caption: Contents:
 
    Matthew/index
+   James/index
    Revelation/index
 
    
 
-
-Indices and tables
-~~~~~~~~~~~~~~~~~~
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
