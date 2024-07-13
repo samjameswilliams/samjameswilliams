@@ -3,17 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bible notes
-===========
+Job
+===
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   Job/index
-   Matthew/index
-   James/index
-   Revelation/index
-
-   
-
+   1
+   5
+   6
+   7
+   9
+   11
+   12
+   13
+   14
