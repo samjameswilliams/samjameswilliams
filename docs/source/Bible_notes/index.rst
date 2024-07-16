@@ -10,8 +10,10 @@ Bible notes
    Job/index
    Proverbs/index
    Ecclesiastes/index
+   Jeremiah/index
    Matthew/index
    Romans/index
+   2_Thessalonians/index
    James/index
    Revelation/index
 
