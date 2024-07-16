@@ -13,4 +13,5 @@ If you have any feedback please post in an issue or discussion on my
    Bible_notes/index
    civil_eng/index
    code/index
+   maths/index
    sermons/index
