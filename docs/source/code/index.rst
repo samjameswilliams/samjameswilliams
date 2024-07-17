@@ -6,4 +6,4 @@ Coding notes
    :caption: Contents:
 
    links
-
+   git_commit_vi
