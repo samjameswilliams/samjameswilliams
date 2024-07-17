@@ -1,9 +1,11 @@
+# Formulas for calculating points along a straight line if axes are logarithmic
+
 Reading from graphs manually with logarithmic scales is vey error prone. 
 
 If you have a graph with a straight line on it where both the x and y axes are in a logarithmic scale the formula of the straight line is found by.  
+
 $$
 \begin{aligned}
-&(x_0,y_0);(x_1,y_1)\\
 &X=log(x);Y=log(y);B=log(b)\\
 &Y=mX+B\\
 &m=\frac{Y_1-Y_0}{X_1-X_0}\\
@@ -15,6 +17,7 @@ $$
 &y=10^{mlog(x)+B}
 \end{aligned}
 $$
-Where $(x_0,y_0)$ and $(x_1,y_1)$ are two coordinates along the straight line.
+
+Where $(x_0,y_0)$ and $(x_1,y_1)$ are two coordinates along the straight line on the graph.
 
 A similar approach can be taken to derive formulas for a graph where only one of the axes are logarithmic.
