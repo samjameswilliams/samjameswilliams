@@ -26,13 +26,20 @@ started with Python using this course. Very well presented.
 
 ### Tools I like
 
-[VS Code](https://code.visualstudio.com/)
-[ptpython](https://pypi.org/project/ptpython/) this is ace. Especially if you use it in ipython mode. You can do terminal commands whilst in the ipython REPL by prefixing the command with "!". Auto completion for terminal commands as well as Python, syntax highlighting, it's great.
-[poetry](https://python-poetry.org/)
-[ruff](https://docs.astral.sh/ruff/)
-[sphinx](https://www.sphinx-doc.org/en/master/) used in creating this website.
-[pytest](https://docs.pytest.org/)
-[Jupyter](https://jupyter.org/) I started writing all my code in Jupyter notebook, then for a long time Jupyter Lab was my IDE of choice, but I only moved to VS Code once the support for running Jupyter notebooks got up to the level of Jupyter Lab. I still use .ipynb files all the time. Great for experimenting and for creating presentable calculations. 
+[VS Code](https://code.visualstudio.com/)  
+
+[ptpython](https://pypi.org/project/ptpython/) this is ace. Especially if you use it in ipython mode. You can do terminal commands whilst in the ipython REPL by prefixing the command with "!". Auto completion for terminal commands as well as Python, syntax highlighting, it's great.  
+
+[poetry](https://python-poetry.org/)  
+
+[ruff](https://docs.astral.sh/ruff/)  
+
+[sphinx](https://www.sphinx-doc.org/en/master/) used in creating this website.  
+
+[pytest](https://docs.pytest.org/)  
+
+[Jupyter](https://jupyter.org/) I started writing all my code in Jupyter notebook, then for a long time Jupyter Lab was my IDE of choice, but I only moved to VS Code once the support for running Jupyter notebooks got up to the level of Jupyter Lab. I still use .ipynb files all the time. Great for experimenting and for creating presentable calculations.  
+
 
 ## Bash  
 
