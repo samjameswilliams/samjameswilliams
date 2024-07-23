@@ -10,6 +10,7 @@ Bible notes
    Job/index
    Proverbs/index
    Ecclesiastes/index
+   Isaiah/index
    Jeremiah/index
    Matthew/index
    Mark/index
