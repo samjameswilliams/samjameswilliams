@@ -18,7 +18,5 @@ Bible notes
    2_Thessalonians/index
    James/index
    1_John/index
+   Jude/index
    Revelation/index
-
-   
-
