@@ -16,7 +16,5 @@ Bible notes
    Romans/index
    2_Thessalonians/index
    James/index
+   Jude/index
    Revelation/index
-
-   
-

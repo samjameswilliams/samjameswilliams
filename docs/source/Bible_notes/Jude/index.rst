@@ -1,12 +1,10 @@
 
 
-Jeremiah
-========
+Jude
+====
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   4
-   12
-   22   
+   1
