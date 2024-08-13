@@ -14,6 +14,7 @@ Bible notes
    Jeremiah/index
    Matthew/index
    Mark/index
+   Luke/index
    Romans/index
    2_Thessalonians/index
    James/index
