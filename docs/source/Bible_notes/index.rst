@@ -12,6 +12,7 @@ Bible notes
    Ecclesiastes/index
    Isaiah/index
    Jeremiah/index
+   Lamentations/index
    Matthew/index
    Mark/index
    Luke/index
