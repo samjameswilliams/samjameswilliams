@@ -17,6 +17,7 @@ Bible notes
    Matthew/index
    Mark/index
    Luke/index
+   John/index
    Romans/index
    2_Thessalonians/index
    James/index
