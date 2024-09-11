@@ -6,4 +6,4 @@ ICE notes
    :caption: Contents:
 
    level_6
-
+   review_stock_questions
