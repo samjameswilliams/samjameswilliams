@@ -8,7 +8,4 @@ Ezekiel
    :caption: Chapter:
 
    3
-   
-
-
-   
+   18   
