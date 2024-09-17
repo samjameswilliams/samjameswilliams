@@ -4,7 +4,7 @@ The ICE reviewers (or assessors if you’re an apprentice) will be asking questi
 ## 1. Understanding and Practical Application of Engineering
 ### Could you draw a free body diagram, shear force diagram and/or bending moment diagram of that structure?
 Don’t let this one catch you out. You might not do much structural design in your role but reviewers consider it perfectly fair game to ask any civil engineer to describe the forces and moments in a structure. Remember your rule of superposition.
-### How would it affect the design if the soil was cohesive rather than granular (or vice versa)? Which is the more critical condition, when the soil is dry or saturated?  
+### How would it affect the design if the soil was cohesive rather than granular (or vice versa)? Which is the more critical condition, when the soil is dry or saturated? What effect would compacting the soil have?  
 The ICE won't expect every candidate to be a geotechincal engineer. But these kinds of questions are what many reviewers would consider the geotech basics that every civil engineer should know. If you don't do much geotech in your day job, you should brush up on the basics.  
 ### What are the key failure modes you considered in the design of …?  
 Some engineers fall into the trap of writing and speaking in a way you might for a bid or in marketing, and talk as if everything went fine and there couldn't possibly be a failure. Reviewers want to know the candidate in front of them understands how a structure could fail and how to ensure (so far as is reasonably practicable) that it won't.
