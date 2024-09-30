@@ -7,3 +7,4 @@ Coding notes
 
    links
    git_commit_vi
+   cmd_touch
