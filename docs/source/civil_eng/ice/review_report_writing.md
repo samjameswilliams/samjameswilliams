@@ -35,7 +35,7 @@ to pass can still be a lot of work so it is really important to ask honestly as 
 candidate, mentor/delegated engineer (DE), supervising civil engineer (SCE) and/or other 
 sponsor: 
 
-> Ask youreslf: **"is now the right time"?**
+> Ask yourself: **"is now the right time"?**
 
 Attempting and failing a professional review is not much fun, it's much better 
 to wait until you stand a really good chance of success.
