@@ -14,6 +14,7 @@ Bible notes
    Jeremiah/index
    Lamentations/index
    Ezekiel/index
+   Joel/index
    Matthew/index
    Mark/index
    Luke/index
