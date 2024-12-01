@@ -15,6 +15,7 @@ Bible notes
    Lamentations/index
    Ezekiel/index
    Joel/index
+   Micah/index
    Matthew/index
    Mark/index
    Luke/index
