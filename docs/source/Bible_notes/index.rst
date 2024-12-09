@@ -16,6 +16,7 @@ Bible notes
    Ezekiel/index
    Joel/index
    Micah/index
+   Habakkuk/index
    Matthew/index
    Mark/index
    Luke/index
