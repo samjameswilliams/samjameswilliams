@@ -9,3 +9,4 @@ Coding notes
    git_commit_vi
    git_tips
    cmd_touch
+   learning_rust
