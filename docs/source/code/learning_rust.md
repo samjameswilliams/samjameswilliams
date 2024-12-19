@@ -1,5 +1,7 @@
 # Learning Rust as a Pythonista
 
+*10/12/2024*
+
 ## Background, why Rust?
 
 I'm picking my way very slowly into learning Rust.  The thing that got me really thinking about it is at work I'm developing a Python library and it's just not as fast as I'd like, so even though a re-write isn't necessary just yet it got me interested in possible ways of speeding things up. I've been impressed at just how much faster ruff is than flake8. I knew the principal reason for this is that ruff is written in Rust whereas flake8 is written in Python. 
