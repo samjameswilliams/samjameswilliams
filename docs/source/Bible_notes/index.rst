@@ -8,6 +8,7 @@ Bible notes
    :caption: Contents:
 
    Job/index
+   Psalms/index
    Proverbs/index
    Ecclesiastes/index
    Isaiah/index
