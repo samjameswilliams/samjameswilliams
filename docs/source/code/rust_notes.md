@@ -66,4 +66,4 @@ b:[3]
 
 The last step wouldn't work in Rust if the data was heap allocated because ownership can only reside with one variable at a time. The data would have "moved" to `b` in Rust so you wouldn't be able to change `a`.
 
-However, it also wouldn't let you use `a` after "moving" the data to `b`.
+However, it also wouldn't let you use `a` after "moving" the data to `b`. Rust behaves really differently to Python in this way. The ownership rules really force you to think about these things. 
