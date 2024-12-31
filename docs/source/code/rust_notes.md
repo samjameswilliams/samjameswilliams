@@ -66,4 +66,37 @@ b:[3]
 
 The last step wouldn't work in Rust if the data was heap allocated because ownership can only reside with one variable at a time. The data would have "moved" to `b` in Rust so you wouldn't be able to change `a`.
 
-However, it also wouldn't let you use `a` after "moving" the data to `b`. Rust behaves really differently to Python in this way. The ownership rules really force you to think about these things. 
+However, it also wouldn't let you use `a` after "moving" the data to `b`, even just printing it. Rust behaves really differently to Python in this way. The ownership rules really force you to think about these things.
+
+In the Python example above there's nothing stopping you doing something like
+
+```python
+>>> c, d, e, f, g, h = a, b, a, b, a, b
+>>> j = [a, b, c, d, e, f, g, h]
+>>> k = [i.append(i[-1]+1) for i in j]
+>>> j
+[[3, 4, 5, 6, 7, 8, 9, 10, 11],
+ [3, 4, 5, 6, 7, 8, 9, 10, 11],
+ [3, 4, 5, 6, 7, 8, 9, 10, 11],
+ [3, 4, 5, 6, 7, 8, 9, 10, 11],
+ [3, 4, 5, 6, 7, 8, 9, 10, 11],
+ [3, 4, 5, 6, 7, 8, 9, 10, 11],
+ [3, 4, 5, 6, 7, 8, 9, 10, 11],
+ [3, 4, 5, 6, 7, 8, 9, 10, 11]]
+```
+where you can modify the list using any of 8 variable names (or as many as you want) all at the same time.
+
+Rust's ownership rules wouldn't let you do this, at least, not without explicitly switching ownership, you wouldn't have more than one alias able to change the data at any one time.
+
+The [Rust book](https://rust-book.cs.brown.edu/ch04-01-what-is-ownership.html) puts it like this:
+
+> Moved heap data principle: if a variable x moves ownership of heap data to another variable y, then x cannot be used after the move.
+
+So the Python shenanigans above would be prevented by the compiler which would tell you that the value had moved.
+
+The summary at the end of the first section on ownership says
+
+* All heap data must be owned by exactly one variable.  
+* Rust deallocates heap data once its owner goes out of scope.  
+* Ownership can be transferred by moves, which happen on assignments and function calls.  
+* Heap data can only be accessed through its current owner, not a previous owner.  

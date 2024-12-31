@@ -10,3 +10,4 @@ Coding notes
    git_tips
    cmd_touch
    learning_rust
+   rust_notes
