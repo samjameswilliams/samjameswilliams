@@ -17,3 +17,4 @@ If you have any feedback please post in an issue or discussion on my
    code/index
    maths/index
    sermons/index
+   diy/index
