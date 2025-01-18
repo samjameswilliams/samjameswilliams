@@ -1,6 +1,6 @@
 # Vauxhall Intellilink - no audio fix. 
 
-I lost the audio on my Intellilink stereo recently. It still made beeps when you pressed buttons out the touch screen but no radio, iPhone or mobile hands free audio. 
+I lost the audio on my Intellilink stereo recently (seems to happen in cold weather but it's always come back previously). It still made beeps when you pressed buttons or the touch screen but no radio, iPhone or mobile hands free audio. 
 
 For me I just needed to hold down. 
 
