@@ -15,13 +15,32 @@ Reviewers don't like to think that the candidate in front of them has no idea ho
 
 A common, related question would be something like "what factors influence the bending moment capacity of a beam/flow capacity of a pipe/bearing capacity of a soil?", this tests that you know more than the names of some equations but have a practical, working knowledge of the things that influence whatever it is you're building/designing.   
 
-## 2. Management and Leadership
+### What are the principal differences between temporary and permanent works design?
+What this one is getting at is, what are the differences between Limit state vs 
+permissible stress design?  
+
+### Give an example of how you have modified a design as a result of experience from being on site  
+
+### Have you ever deviated from client or industry specifications & standards? Why?  
+Have good justifications for this.  
+
+### Can you give examples of where you have researched a specific technique/technology or material?  
+
+### Can you provide an example of how you have effectively managed change due to changing technical or site information?  
+
+## 2. Management and Leadership  
+
 ### What is the difference between a manager and a leader?  
 Not exactly a right and wrong answer to this but read around and have something to say.  
 ### How do you assess the competency of people working for you?  
 ### How do you ensure timely delivery of your project?  
 ### How do you deal with underperforming team members?  
 ### How have you helped others learn on the job?  
+### Can you give and example of how you mitigated a delay?  
+### Can you provide an example of how you have effectively managed change?  
+### How do you ensure the quality of you and your teams outputs are of sufficient quality?
+### Can you provide an example of how you have contributed to quality improvements?  
+Especially in respect to making improvements to quality control procedures (CEng).  
 
 ## 3. Commercial Ability
 ### How is your hourly charge out rate built up? What is the ratio between the charge-out rate and basic salary?  
@@ -47,6 +66,14 @@ You won't be expected to have a detailed knowledge of forms of contract you've n
 
 ### How do you create and manage a budget?  
 
+### How does the business relationship work in which you are working (i.e. design and build partnership or some other collaboration)?  
+### Explain relationship between your company and your client  
+### What are the key criteria of your particular NEC Option contract (or whatever other contract you're working under)?  
+### How do they affect the project delivery?  
+### What is the mechanism by which your company gets paid for works?  
+### Have you ever used commercial justifications to support an engineering decision (or vice versa)?  
+### Tender design - how did you assure yourself that you had developed the design to the correct level and carried out effective risk management?
+
 ## 4. Health, Safety and Welfare  
 Be aware that this is the only mandatory fail attribute. At the reviewer's discretion the reviewers can pass you overall if you're weak in a couple of attributes (although you should be aiming at 7/7). But if you fail on H&S you fail overall. The two things the reviewers will most want to see:
 1. Concrete examples of how you have kept people safe through your actions
@@ -71,14 +98,45 @@ Some engineers fall into the trap of being overly optimistic, saying things like
 ### What are the highest causes of fatalities in the construction industry?  
 The HSE website will give you all the latest stats. An obvious follow on is "how did you guard against these on your project?"  
 
+### How do you comply with the requirements of and your obligations under the CDM regulations?  
+### How do you demonstrate the principles of prevention in your design work?  
+### What were the main hazards created by the design/solution you developed?  
+### How did you address these during the design process?  
+### How are residual risks passed forward to the construction/client teams?  
+### What were the most significant construction hazards on this project and why?  
+How were they managed?  
+### Example of residual risks which cannot be mitigated - practicable or total?  
+### How do you engage the client in the review of operation & maintenance risk?
+
 ## 5. Sustainable Development
 ### Which of the UNSDGs did you apply on your project and how?  
 Read through what these are and jot down which apply to you. They won't all apply, and the reviewers won't expect you to know what all 17 of them are, but they will expect you to know which ones do and be able to say what you've done.  
 Previously reviewers would ask what the three pillars of sustainability are. Some may still ask this although they've been told to switch to the UNSDGs.  
 
+### Explain the concept of PAS2080 (hierarchy of reduction)  
+### What was your most significant contribution to sustainability on this scheme?  
+### Do you have any examples of where sustainability was a significant consideration of decision making?  
+
+### Is it possible for a project to meet all 17 UN SDGs? Why or why not?  
+
+### Do we have the right data to allow truly sustainable decisions to be made?  
+
+### Can solutions be both environmentally sustainable and resilient?  
+
+### Do the three pillars of sustainability still apply?  
+
+### Is it possible to make good decisions about a project and its sustainable benefits/impacts in isolation?  
+
+### How well do you think [your sector] understands its impacts in terms of sustainability?
+
 ## 6. Interpersonal Skills and Communication  
 ### How would you change the way you would explain your project when talking to a client/colleague/school-child/member of the public who lives near the construction site?  
 ### Have you ever worked with someone who's English isn't very good? How did you deal with that?  
+
+### How do you record and communicate key learnings from your project?  
+### How you adapt your communication style when speaking to different audiences?  
+### Have you ever used your communication skills to successfully change opinions or intentions to achieve an alternative outcome?  
+### How have you proactively managed diversity and inclusion?  
 
 ## 7. Professional Commitment
 ### Who is the president of the ICE?  
@@ -88,4 +146,10 @@ If the answer is "no" (and often it may well be), a similar question may follow 
 ### Where do you see yourself in ten years?  
 There isn't a right answer to this but you don't want to sit there like a lemon not knowing what to say. Think about your dream job in the industry, describe how you'd like to get there. Sound enthusiastic.
 ### What motivated you to become a civil engineer? Why do you want to become a member of the ICE? Which civil engineers inspire you the most (who you know personally, or famous engineers) and why?    
-Again, no one right answer to these but they're the sort of questions where the reviewers will want to hear a response that makes them feel like you have enthusiasm about being a civil engineer.
+Again, no one right answer to these but they're the sort of questions where the reviewers will want to hear a response that makes them feel like you have enthusiasm about being a civil engineer.  
+
+### How have you engaged with or made a positive contribution to the institution?
+
+Thank you to additional question suggestions from:  
+* [Tom Rushby](https://www.linkedin.com/in/tom-rushby-117a8b71/)  
+* Rachel Skinner (suggestions from 2025 Annual Reviewer's conference)  
