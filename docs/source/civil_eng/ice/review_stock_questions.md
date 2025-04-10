@@ -145,7 +145,11 @@ Please, please make sure you know this one. Knowing a bit about them is no bad t
 If the answer is "no" (and often it may well be), a similar question may follow on other un-ethical practices, or you may be asked what you would do in a hypothetical situation. Read up on the ICE code of conduct and be ready to answer this kind of question. Think especially about how conflicts of interest could arise and reasonable ways of dealing with that.
 ### Where do you see yourself in ten years?  
 There isn't a right answer to this but you don't want to sit there like a lemon not knowing what to say. Think about your dream job in the industry, describe how you'd like to get there. Sound enthusiastic.
-### What motivated you to become a civil engineer? Why do you want to become a member of the ICE? Which civil engineers inspire you the most (who you know personally, or famous engineers) and why?    
+### What motivated you to become a civil engineer? 
+
+### Why do you want to become a member of the ICE? 
+
+### Which civil engineers inspire you the most (who you know personally, or famous engineers) and why?    
 Again, no one right answer to these but they're the sort of questions where the reviewers will want to hear a response that makes them feel like you have enthusiasm about being a civil engineer.  
 
 ### How have you engaged with or made a positive contribution to the institution?
