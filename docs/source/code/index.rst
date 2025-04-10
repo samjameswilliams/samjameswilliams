@@ -10,4 +10,5 @@ Coding notes
    git_tips
    cmd_touch
    learning_rust
+   passwords
    rust_notes
