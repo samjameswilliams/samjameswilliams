@@ -7,6 +7,7 @@ Bible notes
    :maxdepth: 1
    :caption: Contents:
 
+   Leviticus/index
    Job/index
    Psalms/index
    Proverbs/index
