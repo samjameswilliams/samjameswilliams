@@ -7,3 +7,4 @@ Civil engineering notes
 
    links
    ice/index
+   water/index
