@@ -12,3 +12,4 @@ Coding notes
    learning_rust
    passwords
    rust_notes
+   wogo

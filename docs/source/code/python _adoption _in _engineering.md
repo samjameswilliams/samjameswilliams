@@ -40,7 +40,7 @@ This is currently a very big challenge for me. It just isn't very easy guiding b
 
 This is a lot before you get into the inevitable snags every coder hits. And this all makes it tough for people to get into it because time is valuable. You aren't getting to the good stuff while you're grappling with the set up. 
 
-So recently I've been thinking about how to lower the barriers to entry. I have thought about it before. Probably a few years ago I tried to get help from IT to set up an internal Jupyter Hub but couldn't get the help I asked for. I'm currently thinking of looking at:  
+So recently I've been thinking about how to lower the barriers to entry. I have thought about it before. A few years ago I tried to get help from IT to set up an internal Jupyter Hub but couldn't get the help I asked for. I'm currently thinking of looking at:  
 
 * GitHub Codespaces  
 * Marimo editable notebooks  
@@ -49,7 +49,7 @@ The Marimo option looks great for beginners, and as a replacement for Jupyter an
 
 My aims are to remove as much set up as possible and to make environments consistent so people can just get on with the interesting stuff, the engineering and to make it easier to work together.  
 
-I would have preferred the hydraulic experts involved in the development of the hydraulic library and app to have at least experimented a little with the Python library first hand. I think part of the reason they haven't is reluctance to try, but it's also the faff I've described of getting set up. It's quite a lot of work. I'd like to set up Marimo so you can launch a notebook from any branch of the library and try out the code under development without the need for a Python environment set up locally on your machine. I imagine Codespaces could be made to do this.  
+I would have preferred the hydraulic experts involved in the development of the hydraulic library and app to have at least experimented a little with the Python library first hand. I think part of the reason they haven't is the faff I've described of getting set up. It's quite a lot of work. I'd like to set up Marimo so you can launch a notebook from any branch of the library and try out the code under development without the need for a Python environment set up locally on your machine. I imagine Codespaces could be made to do this.  
 
 ### Training  
 
@@ -63,4 +63,4 @@ I also think it's about time to try to find really little projects for trainees 
 
 ## Deployment  
 
-I'm still struggling with this one. Most of what I've coded has stayed with me. I've not managed to deploy
+I'm still struggling with this one. Most of what I've coded has stayed with me. I've not managed to deploy any of my code for non coders to use. There are some people in the company who have deployed Streamlit apps internally. IT have an approved way of doing this. 
