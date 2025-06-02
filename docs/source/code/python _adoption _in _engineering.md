@@ -45,9 +45,9 @@ So recently I've been thinking about how to lower the barriers to entry. I have 
 * GitHub Codespaces  
 * Marimo editable notebooks  
 
-The Marimo option looks great for beginners, and as a replacement for Jupyter and Streamlit for more advanced users. Codespaces is probably better for coders who are looking to contribute code to projects (approved libraries and apps).  
+The Marimo option looks great for beginners, and as a replacement for Jupyter and Streamlit for more advanced users. Codespaces gives me a platform from which to serve the notebooks and can also be useful for coders who are looking to contribute code to projects (approved libraries and apps).  
 
-My aims are to remove as much set up as possible and to make environments consistent so people can just get on with the interesting stuff, the engineering and to make it easier to work together.  
+My aims are to remove as much set up as possible and to make environments consistent so people can just get on with the interesting stuff, the engineering, and to make it easier to work together.  
 
 I would have preferred the hydraulic experts involved in the development of the hydraulic library and app to have at least experimented a little with the Python library first hand. I think part of the reason they haven't is the faff I've described of getting set up. It's quite a lot of work. I'd like to set up Marimo so you can launch a notebook from any branch of the library and try out the code under development without the need for a Python environment set up locally on your machine. I imagine Codespaces could be made to do this.  
 
@@ -63,4 +63,12 @@ I also think it's about time to try to find really little projects for trainees 
 
 ## Deployment  
 
-I'm still struggling with this one. Most of what I've coded has stayed with me. I've not managed to deploy any of my code for non coders to use. There are some people in the company who have deployed Streamlit apps internally. IT have an approved way of doing this. 
+I'm still struggling with this one. Most of what I've coded has stayed  on my laptop. I've not managed to deploy any of my code for non coders to use. There are some people in the company who have deployed Streamlit apps internally. IT have an approved way of doing this but it hasn't stabilised and people I know who have used it have had to deal with changes to the platform which have caused unexpected downtime until they've worked out what changed and how to move with it.  
+
+I am yet to get into Docker but I think it's something I'll need to get my head into if I'm going to deploy my work as apps for non coders. It seems like a useful, transferable skill in any case.   
+I'm keen to try writing my first simple web app in Marimo rather than Streamlit because of the potential to deploy both as a read only app and as an editable notebook. The editable notebook option seems like a great way to open the black box for users and disseminate engineering and Python knowledge.  
+
+## Appropriate code quality  
+
+
+
