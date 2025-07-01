@@ -1,14 +1,12 @@
 
 
-Psalms
-======
+Deuteronomy
+===========
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   32
-   37
-   127
-   139
-   150
+   12
+
+   
