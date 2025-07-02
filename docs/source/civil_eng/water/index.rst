@@ -5,4 +5,5 @@ Water
    :maxdepth: 1
    :caption: Contents:
 
+   ciria-c816_pipe_thrusts
    suction_tests
