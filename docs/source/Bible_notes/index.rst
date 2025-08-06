@@ -8,6 +8,7 @@ Bible notes
    :caption: Contents:
 
    Leviticus/index
+   Judges/index
    Job/index
    Psalms/index
    Proverbs/index
