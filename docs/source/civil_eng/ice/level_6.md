@@ -22,8 +22,8 @@ This creates some real conflicts of interest. From the perspective of the univer
 On the part of the employer and the apprentice, they both agreed to endeavour to complete the apprenticeship including the EPA and will have signed contracts (the terms of these contracts vary significantly). 
 The ICE wants more members, but it won’t accept just anyone who applies. Before an apprentice can apply for their EPA they must first have:
 1. Completed their initial professional development and had it signed off by their mentor
-2. Had their supervising civil engineer sign of that they are ready to prepare for their EPA
-3. Had their membership development officer sign of that they’re ready to prepare for their EPA
+2. Had their supervising civil engineer sign off that they are ready to prepare for their EPA
+3. Had their membership development officer sign off that they’re ready to prepare for their EPA
 4. Got two ICE members to support (or sponsor) their application
 5. Write a report of good enough quality that it won’t get rejected by the ICE assessors before the assessment
 6. Prepared for the EPA with mock interviews, written exercise practice and study of the things an applicant will be expected to know. 
@@ -35,7 +35,7 @@ Another practical difficulty is the requirement on employers to provide 20% of t
 1. Completion of the degree
 2. Completion of initial professional development.  
 
-This becomes a difficult issue for employers if their apprentices haven’t managed to sign off their initial professional development within a reasonable length of time after finishing their degree. Once degree lectures have finished 20% of the job training is very onerous for the employer to provide. One possible mechanism to avoid this issue is to evoke a break in learning. This is a mechanism in the apprenticeship contract that allows a pause in the apprenticeship including the need to provide 20% training. However, OFSTED counts breaks in leaning as poor performance so this is not an option universities are keen for employers to take. 
+This becomes a difficult issue for employers if their apprentices haven’t managed to sign off their initial professional development within a reasonable length of time after finishing their degree. Once degree lectures have finished 20% off the job training is very onerous for the employer to provide. One possible mechanism to avoid this issue is to evoke a break in learning. This is a mechanism in the apprenticeship contract that allows a pause in the apprenticeship including the need to provide 20% training. However, OFSTED counts breaks in leaning as poor performance so this is not an option universities are keen for employers to take. 
 Even when employers and apprentices work hard to get ready for the apprentice to sit their EPA in the apprenticeship timeframe the issues above can crop up because it is a really tall order for an apprentice to get to the level required by the ICE. Unfortunately the issue is made considerably worse for apprentices in companies where they don’t get the support they need to prepare for the EPA. 
 ###  some suggestions
 The section on the bad has ended up considerably longer than the good but I wouldn’t want to give the impression that I think civil engineering apprenticeships are a bad thing. From an ideological perspective I am fully behind them, I just see very clearly some large problems with the implementation as it stands. However, I think it would be a relatively easy improvement if OFSTED and the universities could relax the timeframe they are currently expecting for completion of the EPA.  
