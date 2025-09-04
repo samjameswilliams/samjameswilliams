@@ -26,7 +26,7 @@ The suction lift capability of a positive displacement pump (or the suction head
 
 ## Rotodynamic pumps  
 
-Rotodynamic pumps, in contrast to positive displacement pumps, do have a clear passage through the pump. They  work very much like propellers on a propeller aircraft but in a pump it's an impeller, not a propeller. For reproductive pumps the suction lift capability, or suction head required is more complicated. It depends on the flow rate through the pump and is published by the pump manufacturer as the NPSHr (net positive suction head required) curve. The NPSHr curve changes with the motor speed in the same way as the performance curve.    
+Rotodynamic pumps, in contrast to positive displacement pumps, do have a clear passage through the pump. They  work very much like propellers on a propeller aircraft but in a pump it's an impeller, not a propeller. For rotodynamic pumps the suction lift capability, or suction head required is more complicated. It depends on the flow rate through the pump and is published by the pump manufacturer as the NPSHr (net positive suction head required) curve. The NPSHr curve changes with the motor speed in the same way as the performance curve.    
 
 What is common to both types is that they both lower the pressure of the fluid on the suction side (which draws the fluid into the pump), and raise the pressure on the discharge side (which propels the fluid down the discharge pipe).  
 
@@ -37,16 +37,16 @@ The formula for calculating the NPSHa (net positive suction heat available) is;
 $NPSHa = H_{st} - H_L + H_{atm} - H_{vap}$  
 
 Where;  
-$$H_{st}$$ is the static head = elevation of free water surface at the upstream end of the suction pipe - pump centreline elevation. This is negative if the pump is above the waterline.  
+$H_{st}$ is the static head = elevation of free water surface at the upstream end of the suction pipe - pump centreline elevation. This is negative if the pump is above the waterline.  
 
-$$H_L$$ is the total head loss in the suction pipe (friction and minor losses)  
-Alternatively you can combine $$H_{st} - H_L$$ and think of them together as the hydraulics grade line (HGL) at the pump intake. This is useful when you don't have a straightforward suction line (i.e. a booster pump in a network).  
+$H_L$ is the total head loss in the suction pipe (friction and minor losses)  
+Alternatively you can combine $H_{st} - H_L$ and think of them together as the hydraulics grade line (HGL) at the pump intake. This is useful when you don't have a straightforward suction line (i.e. a booster pump in a network).  
 
-$$H_{atm}$$ is atmospheric pressure.  
+$H_{atm}$ is atmospheric pressure.  
 
-$$H_{vap}$$ is the vapour pressure of the liquid.  
+$H_{vap}$ is the vapour pressure of the liquid.  
 
-If the NPSHa > NPSHr then the pump should be fine. However, it is prudent to use factors of safety to allow for uncertainty in the calculations and for pump wear. WIMES recommends  using the greater of 2m + NPSHr or $$1.3 \times NPSHr$$  instead of the published NPSHr.  
+If the NPSHa > NPSHr then the pump should be fine. However, it is prudent to use factors of safety to allow for uncertainty in the calculations and for pump wear. WIMES recommends  using the greater of 2m + NPSHr or 1.3 x NPSHr instead of the published NPSHr.  
 
 The formula above occasionally gives the surprising result that a submersible pump, underwater, won't have sufficient NPSHa. This is most likely to happen if the pump is running towards the right of its curve and the level in the well has dropped low.  
 
