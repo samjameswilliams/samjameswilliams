@@ -24,7 +24,7 @@ Positive displacement pumps come in many varieties but they all share in common 
 
 The suction lift capability of a positive displacement pump (or the suction head required) is basically a function of the pump's power and the quality of its seals. It is to be expected and anticipated that a positive displacement pump's suction lift capability will diminish over time as it wears and gaskets perish. If air is allowed in, or if water can pass from the discharge side to the suction side, this will mean the pump cannot drop the pressure quite so low at the suction end of the pump.  
 
-# Rotodynamic pumps  
+## Rotodynamic pumps  
 
 Rotodynamic pumps, in contrast to positive displacement pumps, do have a clear passage through the pump. They  work very much like propellers on a propeller aircraft but in a pump it's an impeller, not a propeller. For reproductive pumps the suction lift capability, or suction head required is more complicated. It depends on the flow rate through the pump and is published by the pump manufacturer as the NPSHr (net positive suction head required) curve. The NPSHr curve changes with the motor speed in the same way as the performance curve.    
 
