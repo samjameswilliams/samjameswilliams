@@ -7,3 +7,4 @@ Water
 
    ciria-c816_pipe_thrusts
    suction_tests
+   pump_suction
