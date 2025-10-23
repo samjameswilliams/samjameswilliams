@@ -9,6 +9,7 @@ Bible notes
 
    Leviticus/index
    Judges/index
+   2_Samuel/index
    Job/index
    Psalms/index
    Proverbs/index
