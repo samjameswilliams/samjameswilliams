@@ -17,7 +17,7 @@ thinking so before you pose your challenging lines of enquiry.
 ## Allow plenty of time  
 
 The reports are fairly long so make sure you don't try and squeeze your preparation 
-into to short a window. Don't neglect to read the CV, real reviewers almost always have
+into too short a window. Don't neglect to read the CV, real reviewers almost always have
 at least a few questions about a candidate's broader experience. Also, don't neglect the 
 appendices. Reviewers will spot mistakes in calculations and unsafe designs and method
 statements. 
@@ -72,10 +72,9 @@ think the candidates actual strengths and weaknesses are, what the strengths and
 weaknesses of the report are (this can be quite different) and then discuss what lines
 of questioning you want to pursue.  
 
-Generally reviewers will start a train of questions on a given topic and keep going till
-that topic is finished, then the other review starts on something different. It's good
-to discuss which lines of questioning you'd both like to take on ensuring a spread 
-across the attributes.  
+Generally one reviewer will start a train of questions on a given topic and keep going till that topic is finished, then the other reviewer starts on something different. It's good to discuss which lines of questioning you'd both like to take on ensuring a spread 
+across the attributes. It's ok to add a question of your own if your 
+co-reviewer didn't ask something in their line of questioning you think they should but try to leave it till the end of their questions or ask politely if you can ask something in a gap, don't just jump in.  
 
 ## Allow time to feedback afterwards  
 
