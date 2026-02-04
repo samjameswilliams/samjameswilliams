@@ -5,6 +5,7 @@ ICE notes
    :maxdepth: 1
    :caption: Contents:
 
+   being_a_mock_reviewer
    level_6
    review_stock_questions
    review_report_writing
