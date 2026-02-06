@@ -11,5 +11,6 @@ Coding notes
    cmd_touch
    learning_rust
    passwords
+   python _adoption _in _engineering
    rust_notes
    wogo
