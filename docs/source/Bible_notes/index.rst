@@ -26,6 +26,7 @@ Bible notes
    Luke/index
    John/index
    Romans/index
+   1_Corinthians/index
    2_Thessalonians/index
    James/index
    1_John/index
