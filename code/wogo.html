@@ -1,0 +1,643 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>WOGO brief &#8212; Sam&#39;s Notes  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'code/wogo';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Maths" href="../maths/index.html" />
+    <link rel="prev" title="Rust notes" href="rust_notes.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Sam's notes</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Bible_notes/index.html">
+                        Bible notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../civil_eng/index.html">
+                        Civil engineering notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        Coding notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../maths/index.html">
+                        Maths
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../sermons/index.html">
+                        Sermon notes
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="../diy/index.html">
+                        DIY notes
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Bible_notes/index.html">
+                        Bible notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../civil_eng/index.html">
+                        Civil engineering notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        Coding notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../maths/index.html">
+                        Maths
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../sermons/index.html">
+                        Sermon notes
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links-2">
+                    More
+                </button>
+                <ul id="pst-nav-more-links-2" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="../diy/index.html">
+                        DIY notes
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="links.html">Coding links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git_commit_vi.html">Git - I accidentally got into vi when I committed</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git_tips.html">Git tips</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cmd_touch.html">touch command equivalent for CMD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="learning_rust.html">Learning Rust as a Pythonista</a></li>
+<li class="toctree-l1"><a class="reference internal" href="passwords.html">Making a strong and memorable password.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python%20_adoption%20_in%20_engineering.html">Adopting Python in engineering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rust_notes.html">Rust notes</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">WOGO brief</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="index.html" class="nav-link">Coding notes</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">WOGO brief</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="wogo-brief">
+<h1>WOGO brief<a class="headerlink" href="#wogo-brief" title="Link to this heading">#</a></h1>
+<p>Work out, geek out (WOGO) is an idea for a personal project to write a command line tool so I can track my progress with upper body exercise. I’m planning to write it in Rust, compile it with Linux as a target and I can’t see why it shouldn’t be possible to run it from the command line on my iPhone using iSh.</p>
+<section id="user-interface">
+<h2>User interface<a class="headerlink" href="#user-interface" title="Link to this heading">#</a></h2>
+<p>The user interface will be intentionally minimal. Initially I’m just going to aim for the below;</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>wogo<span class="w"> </span><span class="c1"># start the tool  </span>
+
+Hi<span class="w"> </span>Sam
+Time<span class="w"> </span>to<span class="w"> </span>WOGO<span class="w"> </span><span class="o">(</span>Work<span class="w"> </span>out,<span class="w"> </span>geek<span class="w"> </span>out<span class="o">)</span><span class="w">  </span>
+
+Please<span class="w"> </span><span class="k">select</span><span class="w"> </span>from<span class="w"> </span>the<span class="w"> </span>following:<span class="w">  </span>
+
+<span class="m">1</span><span class="w"> </span>Record<span class="w"> </span><span class="nb">set</span><span class="w"> </span>of<span class="w"> </span>pull<span class="w"> </span>ups<span class="w">  </span>
+<span class="m">2</span><span class="w"> </span>Record<span class="w"> </span><span class="nb">set</span><span class="w"> </span>of<span class="w"> </span>chin<span class="w"> </span>ups<span class="w">  </span>
+<span class="m">3</span><span class="w"> </span>Record<span class="w"> </span><span class="nb">set</span><span class="w"> </span>of<span class="w"> </span>hammer<span class="w"> </span>grip<span class="w"> </span>pull<span class="w"> </span>ups<span class="w">  </span>
+q<span class="w"> </span>to<span class="w"> </span>quit<span class="w"> </span>and<span class="w"> </span>save<span class="w">  </span>
+
+&gt;<span class="w"> </span>one<span class="w">  </span>
+
+Input<span class="w"> </span>error<span class="p">;</span><span class="w"> </span>Please<span class="w"> </span>enter<span class="w"> </span>a<span class="w"> </span>number<span class="w"> </span>according<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>selection<span class="w"> </span>you<span class="w"> </span>want<span class="w"> </span>or<span class="w"> </span>q<span class="w"> </span>to<span class="w"> </span>quit.<span class="w">  </span>
+
+&gt;<span class="w"> </span><span class="m">1</span><span class="w">  </span>
+
+How<span class="w"> </span>many<span class="w"> </span>reps<span class="w"> </span>of<span class="w"> </span>pull<span class="w"> </span>ups<span class="w"> </span>did<span class="w"> </span>you<span class="w"> </span><span class="k">do</span>?<span class="w"> </span><span class="o">[</span>integer<span class="o">]</span><span class="w">  </span>
+
+&gt;<span class="w"> </span><span class="m">2</span><span class="w">  </span>
+
+Did<span class="w"> </span>you<span class="w"> </span><span class="k">continue</span><span class="w"> </span><span class="k">until</span><span class="w"> </span>failure?<span class="w"> </span><span class="o">[</span>y/n<span class="o">]</span><span class="w">  </span>
+
+&gt;<span class="w"> </span>y<span class="w">  </span>
+
+You<span class="err">&#39;</span>ve<span class="w"> </span>recorded<span class="w"> </span>that<span class="w"> </span>you<span class="w"> </span>did<span class="w"> </span><span class="m">2</span><span class="w"> </span>pull-ups<span class="w"> </span>and<span class="w"> </span>continued<span class="w"> </span><span class="k">until</span><span class="w"> </span>failure.<span class="w"> </span>Enter<span class="w"> </span><span class="o">[</span>y<span class="o">]</span><span class="w"> </span>to<span class="w"> </span>confirm<span class="w"> </span>or<span class="w"> </span><span class="o">[</span>n<span class="o">]</span><span class="w"> </span>to<span class="w"> </span>discard.<span class="w">  </span>
+
+&gt;<span class="w"> </span>y<span class="w">  </span>
+
+Please<span class="w"> </span><span class="k">select</span><span class="w"> </span>from<span class="w"> </span>the<span class="w"> </span>following:<span class="w">  </span>
+
+<span class="m">1</span><span class="w"> </span>Record<span class="w"> </span><span class="nb">set</span><span class="w"> </span>of<span class="w"> </span>pull<span class="w"> </span>ups<span class="w">  </span>
+<span class="m">2</span><span class="w"> </span>Record<span class="w"> </span><span class="nb">set</span><span class="w"> </span>of<span class="w"> </span>chin<span class="w"> </span>ups<span class="w">  </span>
+<span class="m">3</span><span class="w"> </span>Record<span class="w"> </span><span class="nb">set</span><span class="w"> </span>of<span class="w"> </span>hammer<span class="w"> </span>grip<span class="w"> </span>pull<span class="w"> </span>ups<span class="w">  </span>
+q<span class="w"> </span>to<span class="w"> </span>quit<span class="w">  </span>
+
+&gt;<span class="w"> </span>q
+</pre></div>
+</div>
+<p>The user interaction above would create an entry like this in the dataframe.</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>timestamp</p></th>
+<th class="head"><p>pullups</p></th>
+<th class="head"><p>chinups</p></th>
+<th class="head"><p>hammers</p></th>
+<th class="head"><p>to_failure</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2025/05/26 19:19</p></td>
+<td><p>2</p></td>
+<td><p>nan</p></td>
+<td><p>nan</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">true</span></code></p></td>
+</tr>
+</tbody>
+</table>
+<p>The timestamp would be added automatically from the time the entry was made.</p>
+<p>For a session involving multiple sets you can just continue to loop through the questions until you’re finished then quit.</p>
+<p>Any necessary corrections will initially need to be performed outside the app (e.g. in a Python REPL).</p>
+</section>
+<section id="data-storage">
+<h2>Data storage<a class="headerlink" href="#data-storage" title="Link to this heading">#</a></h2>
+<p>It would be perfectly possible to store the data in a simple csv but I’d like to learn a little bit about Arrow and Polars so it’ll be a project requirement that the tool will read and write to a feather file.</p>
+</section>
+<section id="configuration">
+<h2>Configuration<a class="headerlink" href="#configuration" title="Link to this heading">#</a></h2>
+<p>The first time the app is run it’ll require a configuration as below;</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>wogo
+
+Welcome<span class="w"> </span>to<span class="w"> </span>WOGO<span class="w"> </span><span class="o">(</span>work<span class="w"> </span>out,<span class="w"> </span>geek<span class="w"> </span>out<span class="o">)</span>.
+
+To<span class="w"> </span>get<span class="w"> </span>started<span class="w"> </span>please<span class="w"> </span>give<span class="w"> </span>your<span class="w"> </span>name
+
+&gt;<span class="w"> </span>Sam
+
+Please<span class="w"> </span>give<span class="w"> </span>a<span class="w"> </span>filepath<span class="w"> </span>to<span class="w"> </span>where<span class="w"> </span>you<span class="w"> </span>want<span class="w"> </span>to<span class="w"> </span>store<span class="w"> </span>your<span class="w"> </span>data<span class="w"> </span>
+
+&gt;<span class="w"> </span>home<span class="se">\s</span>ome<span class="se">\p</span>ath
+</pre></div>
+</div>
+<p>This will write to a file called wogo.toml which will store the user’s name and location of their data so the user won’t need to specify this each time.</p>
+</section>
+<section id="visualisation">
+<h2>Visualisation<a class="headerlink" href="#visualisation" title="Link to this heading">#</a></h2>
+<p>I plan to use Python with Sphinx or Marimo to create visualisations using matplotlib. This will probably be in the form of bar graphs and maybe some table created with great tables.</p>
+</section>
+<section id="additional-features">
+<h2>Additional features<a class="headerlink" href="#additional-features" title="Link to this heading">#</a></h2>
+<p>Some things it might be nice to add.</p>
+<ul class="simple">
+<li><p>correcting entry errors</p></li>
+<li><p>add new type of workout</p></li>
+<li><p>display recent activity</p></li>
+</ul>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="rust_notes.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Rust notes</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../maths/index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Maths</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#user-interface">User interface</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-storage">Data storage</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration">Configuration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visualisation">Visualisation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-features">Additional features</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/code/wogo.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2023, Samuel James Williams.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.14.4.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>
