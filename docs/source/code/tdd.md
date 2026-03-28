@@ -8,13 +8,13 @@ As a professional  civil engineer I learnt the importance of quality control and
 
 When checking drawings and calculations it is good practice to record what you've checked as you go and hold on to that record. Typically for me drawings have been checked on a pdf print and calculations in an Excel spreadsheet. The checking is a very manual process. 
 
-Whilst that may sound very inefficient, for bespoke work it isn't necessarily. In fact, especially these days, there's much to be said for the human element involved in this style of quality control. Where it becomes more problematic is when it is applied to standardised calculations. If a standard calculation spreadsheet has been through checking and in use a bug is discovered, or a new feature is required, the manual check of the spreadsheet needs to be repeated. Will you remember to check All the things from the first round? Were the checks all recorded? There's a high risk of unintended consequences from the changes.  
+Whilst that may sound inefficient, for bespoke work it isn't necessarily. In fact, especially these days, there's much to be said for the human element involved in this style of quality control. Where it becomes more problematic is when it is applied to standardised calculations. If a standard calculation spreadsheet has been through checking and in use a bug is discovered, or a new feature is required, the manual check of the spreadsheet needs to be repeated. Will you remember to check all the things from the first round? Were the checks all recorded? There's a high risk of unintended consequences from the changes.  
 
 ## Getting into Python
 
 When I started work developing an internal Python library for hydraulic calculations I was keen to learn how to do quality control in a code context. I loved the idea of having automated tests that were re-runnable as you went. It really helps overcome the issue of unintended consequences of changes. 
 
-Till then I'd used Python in Jupyter notebooks and has taken a very similar approach to checking as I always had in Excel, doing manual sense checks as I went. 
+Till then I'd used Python in Jupyter notebooks and had taken a very similar approach to checking as I always had in Excel, doing manual sense checks as I went. 
 
 To begin with my approach to writing a new feature went something like:  
 
@@ -70,10 +70,14 @@ This was a question I put to Ian at the workshop. What he said was that he doesn
 
 This is quite likely. It's hard to spot all problems in advance. If that happens you might need to revisit some tests, but it's a similar process doing that to writing new ones. Code coverage tools can help to identify if removing a badly designed test has left untested code in place. 
 
+**What if I need to work on ideas in an interactive environment?**
+
+I still experiment and check my understanding of how things work in an interactive environment. But I do it a lot less. I tend to just check how individual functions or methods behave or how to access attributes rather than develop my new feature in an interactive environment. I've also switched from using Jupyter notebooks to using ptpython in ptipython mode. It makes it feel more throwaway if it's in a REPL rather than saved in a file somewhere, and that's a good thing. It's important to get away from tinkering and writing too much by trial and  error if you're going to embrace test driven development.
+
 ## Is this still relevant in the age of AI?  
 
 I'd say yes. It's still important to be able to prove the code works. It's still desirable to get the job done with the smallest, simplest code base that does the job. It's still desirable to keep code modular and have tests tightly linked to your specification. AI can be used to assist in the test driven workflow. It's probably getting rarer to find people who don't use AI somehow. But one way AI works against the test driven philosophy is it tends to write incredibly verbose code. It will write code more quickly than you can review it so you need to keep it on a tight lease and be ready to just use `git reset --hard` ruthlessly if it generates reams of code rather than waste time debugging it all. 
 
 ## Closing thoughts
 
-I know there's other ways to ensure you get a robust, clean code base. But for me after trying to figure it out on my own this approach made a huge difference. I spend far less time debugging, the code coverage on new stuff I write is 100%. I'm sure there's fewer bugs in the end result. I feel more confident refactoring and in what I've done overall. It has a nice methodical feel to it, it's great putting tick marks on things in the spec as you go through knowing those  ticks all represent at least one test. It makes it easier to gauge how far along you are. As I say I'm the title, I'm sold on it. 
+I know there's other ways to ensure you get a robust, clean code base. But for me after trying to figure it out on my own this approach made a huge difference. I spend far less time debugging, the code coverage on new stuff I write is 100%. I'm sure there's fewer bugs in the end result. I feel more confident refactoring and in what I've done overall. It has a nice methodical feel to it, it's great putting tick marks on things in the spec as you go through knowing those  ticks all represent at least one test. It makes it easier to gauge how far along you are. As I say in the title, I'm sold on it. 
