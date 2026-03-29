@@ -1,0 +1,610 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Why I’m sold on test driven development &#8212; Sam&#39;s Notes  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'code/tdd';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="WOGO brief" href="wogo.html" />
+    <link rel="prev" title="Rust notes" href="rust_notes.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Sam's notes</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Bible_notes/index.html">
+                        Bible notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../civil_eng/index.html">
+                        Civil engineering notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        Coding notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../maths/index.html">
+                        Maths
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../sermons/index.html">
+                        Sermon notes
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="../diy/index.html">
+                        DIY notes
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Bible_notes/index.html">
+                        Bible notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../civil_eng/index.html">
+                        Civil engineering notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        Coding notes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../maths/index.html">
+                        Maths
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../sermons/index.html">
+                        Sermon notes
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links-2">
+                    More
+                </button>
+                <ul id="pst-nav-more-links-2" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="../diy/index.html">
+                        DIY notes
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="links.html">Coding links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git_commit_vi.html">Git - I accidentally got into vi when I committed</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git_tips.html">Git tips</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cmd_touch.html">touch command equivalent for CMD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="learning_rust.html">Learning Rust as a Pythonista</a></li>
+<li class="toctree-l1"><a class="reference internal" href="passwords.html">Making a strong and memorable password.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python%20_adoption%20_in%20_engineering.html">Adopting Python in engineering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rust_notes.html">Rust notes</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Why I’m sold on test driven development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wogo.html">WOGO brief</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="index.html" class="nav-link">Coding notes</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">Why I’m...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="why-i-m-sold-on-test-driven-development">
+<h1>Why I’m sold on test driven development<a class="headerlink" href="#why-i-m-sold-on-test-driven-development" title="Link to this heading">#</a></h1>
+<section id="my-background">
+<h2>My background<a class="headerlink" href="#my-background" title="Link to this heading">#</a></h2>
+<p>I’m a chartered civil engineer working in the UK water industry. I did a little MATLAB coding in university but didn’t touch code between 2007 and 2020 when I started learning Python.</p>
+<p>As a professional  civil engineer I learnt the importance of quality control and checking. It’s important to remember that everyone makes mistakes. In civil engineering mistakes in drawings and calculations can be dangerous, it could cost lives. So no matter how good the engineer is who did a piece of work, it always gets checked. The higher the consequences of failure or complexity of the design, the more rigorous the check should be.</p>
+<p>When checking drawings and calculations it is good practice to record what you’ve checked as you go and hold on to that record. Typically for me drawings have been checked on a pdf print and calculations in an Excel spreadsheet. The checking is a very manual process.</p>
+<p>Whilst that may sound inefficient, for bespoke work it isn’t necessarily. In fact, especially these days, there’s much to be said for the human element involved in this style of quality control. Where it becomes more problematic is when it is applied to standardised calculations. If a standard calculation spreadsheet has been through checking and in use a bug is discovered, or a new feature is required, the manual check of the spreadsheet needs to be repeated. Will you remember to check all the things from the first round? Were the checks all recorded? There’s a high risk of unintended consequences from the changes.</p>
+</section>
+<section id="getting-into-python">
+<h2>Getting into Python<a class="headerlink" href="#getting-into-python" title="Link to this heading">#</a></h2>
+<p>When I started work developing an internal Python library for hydraulic calculations I was keen to learn how to do quality control in a code context. I loved the idea of having automated tests that were re-runnable as you went. It really helps overcome the issue of unintended consequences of changes.</p>
+<p>Till then I’d used Python in Jupyter notebooks and had taken a very similar approach to checking as I always had in Excel, doing manual sense checks as I went.</p>
+<p>To begin with my approach to writing a new feature went something like:</p>
+<ol class="arabic simple">
+<li><p>Write and experiment with the feature in Jupyter interactively.</p></li>
+<li><p>When it worked as I wanted, copy it into the library.</p></li>
+<li><p>Write tests to ensure it keeps working as intended.</p></li>
+</ol>
+<p>This was a step up over Excel but I still had the following issues:</p>
+<ul class="simple">
+<li><p>sometimes things that had worked when I tested them interactively earlier were broken by the time I wrote the tests later</p></li>
+<li><p>although my code might do what I wanted, the API was sometimes very ugly to work with</p></li>
+<li><p>it was often quite tricky to write clean tests to test my code</p></li>
+<li><p>I must have done hundreds of interactive throw away tests that never made it into the test code</p></li>
+<li><p>the tests weren’t getting full coverage of the code (some lines of code weren’t activated in any test)</p></li>
+</ul>
+</section>
+<section id="the-lightbulb-moment">
+<h2>The lightbulb moment<a class="headerlink" href="#the-lightbulb-moment" title="Link to this heading">#</a></h2>
+<p>I’d heard the term “test driven development” in various podcasts but almost invariably it was someone saying something like they didn’t have the patience for it. I didn’t really know what it was but when I saw an invite going round for my colleague Ian Cornwell speaking on test driven development I decided to dial in. As I watched I saw how the way he applied test driven development addressed all the issues I outlined above. I thought, I need to start doing things this way.</p>
+</section>
+<section id="so-what-is-test-driven-development">
+<h2>So what is test driven development?<a class="headerlink" href="#so-what-is-test-driven-development" title="Link to this heading">#</a></h2>
+<p>Before you write any code at all you first write a specification of what the code should do. The specification doesn’t need to be a formal report. Often for me it’s a checklist which I keep in a GitHub Issue. Ideally you should agree on this specification with a domain expert (someone who understands the problem you’re trying to solve with the code, not necessarily a coder), even if you are a domain expert yourself it’s good to bounce your concept off someone else.</p>
+<p>Ideally the specification should include examples of expected output from a given set of inputs. This should include as many types of scenarios as you can think of. It is also good to identify clearly what is valid and invalid input and output.</p>
+<p>It can be tempting to dive straight into coding but thinking things through like this pays dividends in the end. I was already fairly close to doing this part already. In my non coding calculations and drawings I always come up with an outline or sketch of what I want to do and agree that with people before diving into the detail. It saves a lot of rework.</p>
+<p>Having done this you choose a part of the specification you can write as a test in code. Then you write that test and run it <strong>before</strong> writing the code to do what your testing. Yes, it sounds odd but there’s a few good reasons.</p>
+<p>Firstly, the test ought to fail. If it doesn’t then there must be something wrong with the test. It’s as easy to make mistakes when writing test code as any other code. Also you get to see an error message, this is also often informative. Has it failed for the reason you would expect?</p>
+<p>Additionally, it makes you think about the API before the implementation. You’ll probably think as you’re writing the test “how would I like to call this function or instantiate this class and how do I want the results”? You’ll probably write something that is nice to work with and so you’ll end up with something that’s nice to work with.</p>
+<p>You also won’t want to write huge tests with complicated set ups so it makes you write code that is easy to test. This type of code tends to be highly modular and reusable.</p>
+<p>Then you write the least amount of code you can to make the test pass, even if you know you won’t keep it because you know something will come later that will force you to do something different. Why do this? Because it avoids non-functional code getting in and should ensure full test coverage. If there’s non-functional code in the code base there’s a reasonable chance the code isn’t doing something you think it should. If you haven’t got full coverage there’s a higher chance you’ll get unexpected behaviours from the code in use than if you do.</p>
+<p>Then you refactor the code to make it cleaner and rerun the tests to see if it still works. You do this until you’re happy. Then you write another test and go through the process again. You keep repeating until everything in the specification is covered.</p>
+</section>
+<section id="when-i-don-t-use-it">
+<h2>When I don’t use it<a class="headerlink" href="#when-i-don-t-use-it" title="Link to this heading">#</a></h2>
+<p>I’m just getting into simple GUI development using Marimo. I don’t see as much value testing the front end as the back end. But if I were doing something more complicated I’d think about a front end testing framework like Playright.</p>
+<p>For simple scripts or notebooks for calculations I generally don’t do test driven development. Ian however uses it even for the Advent of Code challenges because he’s so used to it. So maybe I’ll end up using it for more one off code too as I get quicker with it. It does give confidence in what you’re writing.</p>
+</section>
+<section id="what-if">
+<h2>What if …<a class="headerlink" href="#what-if" title="Link to this heading">#</a></h2>
+<p><strong>What if I’ve already got a really nice code architecture in mind and following test driven development leads to something else?</strong></p>
+<p>This was a question I put to Ian at the workshop. What he said was that he doesn’t go through the spec sequentially but looks carefully at what the next step should be. He sometimes has an architecture in mind at the outset but he remains open to arriving at something simpler if it’ll do the job. The test driven approach is a good way to put your idea to the test.</p>
+<p>There’s been more than one occasion now where I’ve managed to make a test pass with less code than I expected. It’s quite satisfying to hit on a simpler solution. Looking at things in a simple way, the better you get at coding, the fewer bugs you write per line. But no matter how good you get, the less code you write, the fewer bugs you’ll generally introduce. This can be taken too far, as Tim Peters says “readability counts”. A handful of legible lines is better than an inscrutable one liner.</p>
+<p><strong>What if you realise something in the specification isn’t right part way through?</strong></p>
+<p>This is quite likely. It’s hard to spot all problems in advance. If that happens you might need to revisit some tests, but it’s a similar process doing that to writing new ones. Code coverage tools can help to identify if removing a badly designed test has left untested code in place.</p>
+<p><strong>What if I need to work on ideas in an interactive environment?</strong></p>
+<p>I still experiment and check my understanding of how things work in an interactive environment. But I do it a lot less. I tend to just check how individual functions or methods behave or how to access attributes rather than develop my new feature in an interactive environment. I’ve also switched from using Jupyter notebooks to using ptpython in ptipython mode. It makes it feel more throwaway if it’s in a REPL rather than saved in a file somewhere, and that’s a good thing. It’s important to get away from tinkering and writing too much by trial and  error if you’re going to embrace test driven development.</p>
+</section>
+<section id="is-this-still-relevant-in-the-age-of-ai">
+<h2>Is this still relevant in the age of AI?<a class="headerlink" href="#is-this-still-relevant-in-the-age-of-ai" title="Link to this heading">#</a></h2>
+<p>I’d say yes. It’s still important to be able to prove the code works. It’s still desirable to get the job done with the smallest, simplest code base that does the job. It’s still desirable to keep code modular and have tests tightly linked to your specification. AI can be used to assist in the test driven workflow. It’s probably getting rarer to find people who don’t use AI somehow. But one way AI works against the test driven philosophy is it tends to write incredibly verbose code. It will write code more quickly than you can review it so you need to keep it on a tight lease and be ready to just use <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">--hard</span></code> ruthlessly if it generates reams of code rather than waste time debugging it all.</p>
+</section>
+<section id="closing-thoughts">
+<h2>Closing thoughts<a class="headerlink" href="#closing-thoughts" title="Link to this heading">#</a></h2>
+<p>I know there’s other ways to ensure you get a robust, clean code base. But for me after trying to figure it out on my own this approach made a huge difference. I spend far less time debugging, the code coverage on new stuff I write is 100%. I’m sure there’s fewer bugs in the end result. I feel more confident refactoring and in what I’ve done overall. It has a nice methodical feel to it, it’s great putting tick marks on things in the spec as you go through knowing those  ticks all represent at least one test. It makes it easier to gauge how far along you are. As I say in the title, I’m sold on it.</p>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="rust_notes.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Rust notes</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="wogo.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">WOGO brief</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#my-background">My background</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-into-python">Getting into Python</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-lightbulb-moment">The lightbulb moment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#so-what-is-test-driven-development">So what is test driven development?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#when-i-don-t-use-it">When I don’t use it</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-if">What if …</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#is-this-still-relevant-in-the-age-of-ai">Is this still relevant in the age of AI?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#closing-thoughts">Closing thoughts</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/code/tdd.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2023, Samuel James Williams.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.14.4.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>
