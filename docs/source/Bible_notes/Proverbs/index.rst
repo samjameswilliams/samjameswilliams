@@ -7,6 +7,8 @@ Proverbs
    :maxdepth: 1
    :caption: Contents:
 
+   15
+   16
    24
    25
    28

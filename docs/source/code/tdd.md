@@ -66,6 +66,8 @@ For simple scripts or notebooks for calculations I generally don't do test drive
 
 This was a question I put to Ian at the workshop. What he said was that he doesn't go through the spec sequentially but looks carefully at what the next step should be. He sometimes has an architecture in mind at the outset but he remains open to arriving at something simpler if it'll do the job. The test driven approach is a good way to put your idea to the test. 
 
+There's been more than one occasion now where I've managed to make a test pass with less code than I expected. It's quite satisfying to hit on a simpler solution. Looking at things in a simple way, the better you get at coding, the fewer bugs you write per line. But no matter how good you get, the less code you write, the fewer bugs you'll generally introduce. This can be taken too far, as Tim Peters says "readability counts". A handful of legible lines is better than an inscrutable one liner.
+
 **What if you realise something in the specification isn't right part way through?**
 
 This is quite likely. It's hard to spot all problems in advance. If that happens you might need to revisit some tests, but it's a similar process doing that to writing new ones. Code coverage tools can help to identify if removing a badly designed test has left untested code in place. 
