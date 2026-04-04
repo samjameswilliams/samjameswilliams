@@ -1,17 +1,25 @@
-[tool.poetry]
+[project]
 name = "sams-notes"
 version = "0.1.0"
 description = "A repo for my faith and work related notes"
-authors = ["samjameswilliams <samjameswilliams1985@gmail.com>"]
+authors = [{ name = "samjameswilliams", email = "samjameswilliams1985@gmail.com" }]
+requires-python = ">=3.10,<4"
 readme = "README.md"
-package-mode = false
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+    "zensical>=0.0.31",
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-sphinx = "^7.2.6"
-pydata-sphinx-theme = "^0.14.4"
-myst-parser = "^2.0.0"
+[tool.uv]
+package = false
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["uv_build>=0.11.3,<0.12.0"]
+build-backend = "uv_build"
