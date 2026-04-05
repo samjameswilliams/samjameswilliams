@@ -1,4 +1,5 @@
-﻿# Ecclesiastes 7:1-13 The contrast of wisdom and folly
+﻿
+# Ecclesiastes 7:1-13 The contrast of wisdom and folly
 
 ## Better is the end of a thing  
 Ecc 7:1-6 & 8  

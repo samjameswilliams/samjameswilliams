@@ -1,4 +1,5 @@
-﻿# Ecclesiastes 4:1-3 & 5:8-9: Being Merciful
+﻿
+# Ecclesiastes 4:1-3 & 5:8-9: Being Merciful
 
 Psalm 49:12-13  
 Proverbs 18:1  

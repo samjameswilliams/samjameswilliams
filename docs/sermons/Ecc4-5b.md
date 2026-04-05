@@ -1,4 +1,5 @@
-﻿# Ecclesiastes 4:4-12 & 5:10-6:9: What gain has the worker from his toil?
+﻿
+# Ecclesiastes 4:4-12 & 5:10-6:9: What gain has the worker from his toil?
 
 ## Introduction  
 The book of Ecclesiastes opens:  

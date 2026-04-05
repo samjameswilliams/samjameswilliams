@@ -1,6 +1,9 @@
-﻿# Ecclesiastes 1 & 2 - Being wise and being humble  
+﻿
+# Ecclesiastes 1 & 2 - Being wise and being humble   
+
 Pontesbury Baptist Church - 19/02/2017  
 John Street Church - 29/10/2017  
+
 ## Main point  
 
 ### Wisdom  

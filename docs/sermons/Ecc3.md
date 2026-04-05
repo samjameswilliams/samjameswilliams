@@ -1,4 +1,6 @@
-﻿# Ecclesiastes 3: Being joyful and doing good
+﻿
+# Ecclesiastes 3: Being joyful and doing good  
+
 Sam Williams  
 23rd July 2017  
 

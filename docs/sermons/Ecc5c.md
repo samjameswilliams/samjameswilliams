@@ -1,4 +1,5 @@
-﻿# Ecclesiastes 5:1-7, 9:1-2, 12:1-14: The spirit returns to God who gave it
+﻿
+# Ecclesiastes 5:1-7, 9:1-2, 12:1-14: The spirit returns to God who gave it
 
 ## Introduction
 In these passages we are considering Solomon speaks about God. He never makes any attempt to prove God’s existence, instead he simply confronts us with the reality that God does exist and presents us with some of the consequences.
