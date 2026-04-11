@@ -1,5 +1,8 @@
 # Why I'm sold on test driven development  
 
+>Whoever trusts in his own mind is a fool  
+*Proverbs 28:6a*
+
 ## My background  
 
 I'm a chartered civil engineer working in the UK water industry. I did a little MATLAB coding in university but didn't touch code between 2007 and 2020 when I started learning Python.  
