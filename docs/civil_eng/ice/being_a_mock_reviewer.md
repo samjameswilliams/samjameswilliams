@@ -84,7 +84,9 @@ co-reviewer didn't ask something in their line of questioning you think they sho
 
 Don't ask more than one question at the same time.  
 
-#### 
+#### Marathon questions  
+
+Avoid questions that would require a mini-lecture to answer properly. 
 
 #### Leading questions  
 
