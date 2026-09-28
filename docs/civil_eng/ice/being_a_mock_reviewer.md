@@ -76,6 +76,44 @@ Generally one reviewer will start a train of questions on a given topic and keep
 across the attributes. It's ok to add a question of your own if your 
 co-reviewer didn't ask something in their line of questioning you think they should but try to leave it till the end of their questions or ask politely if you can ask something in a gap, don't just jump in.  
 
+## Ask the right sort of questions
+
+### Red - avoid
+
+#### Multiple questions  
+
+Don't ask more than one question at the same time.  
+
+#### 
+
+#### Leading questions  
+
+Avoid questions where you give away the answer.  
+
+### Amber - use with caution  
+
+#### Hypothetical questions  
+
+Try to keep it related to the candidate's experience. Try to keep it as a situation the candidate might actually come across.  
+
+#### Closed questions  
+
+If questions can be validly answered with one word they won't give you much information.  
+
+### Green - good
+
+#### Open questions  
+
+- What led you to amend your design by ...?  
+- When would you implement ...?  
+- Can you give an example of when you demonstrated ...?  
+
+#### Drill down questions  
+
+Questions that get under the surface, offering more information than what they've told you.
+
+Gives a good opportunity to see the candidate's contribution.
+
 ## Allow time to feedback afterwards  
 
 If you've given them a real grilling you shouldn't just finish with a "all the best" and
