@@ -1,4 +1,4 @@
-﻿
+
 # Ecclesiastes 1 & 2 - Being wise and being humble   
 
 Pontesbury Baptist Church - 19/02/2017  
@@ -7,14 +7,19 @@ John Street Church - 29/10/2017
 ## Main point  
 
 ### Wisdom  
+
 There are many things in life that can make us feel important if we have or achieve them. We must not be fooled into looking for importance and purpose in the wrong places. We are wise if instead of assuming that we will get satisfaction in the places we are looking for it, or the place we happen to be going, we consider where we are going.  
 
-### Humility
+### Humility  
+
 Humility comes from understanding our true position before God. God is separate from his creation, all powerful, all understanding, pure, eternal: having no beginning or end. We are none of these things. God gives us our importance and purpose, we cannot impress him and we are not called to. We should not be consumed by trying to impress others by the things we are or do, but instead seek to honour God and inspire others to do the same.  
 
 ## Introduction
+
 This passage talks both the value and the limitations of wisdom. But more importantly than that it speaks to us about the importance of humility. Why should I have chosen this book to preach from? The reason is that it’s a book that that is close to my heart and has been for a long time.   
+
 ## Background/about me
+
 I remember being affected from a young age by the account of Solomon at the beginning of his reign asking for wisdom and God being pleased and granting his request (1 Kings 3:9-14). I saw Solomon as a role model. I have treasured/coveted knowledge, cleverness and wisdom for as long as I can remember. It’s what I want to be known for.
 
 
@@ -28,15 +33,18 @@ Ecclesiastes was written by Solomon and it grabbed my attention because of this.
 
 
 I came back to the book to study it more in depth in my early twenties. From studying it I wanted to gain wisdom. I thought if only I can be wise enough
-* I will be sure to please God
-* I can be sure to have an answer for any question 
-* I will persuade people to turn to faith in Christ
+
+* I will be sure to please God  
+* I can be sure to have an answer for any question  
+* I will persuade people to turn to faith in Christ  
 * I can show them how hollow their ways of life are, and I might look impressive to other christians.
 
 
 Some of the motivations I had coming to the book were good and I took insights from its pages that stick with me to today. I was not prepared for how humbling an experience I would find the study of this book. 
+
 ## Biblical authority
-Something I remember well from around this time was that I was deeply troubled by finding what seemed to me to be inconsistencies between the Gospel accounts. I was sure the Bible was the word of God and should therefore be trustworthy in every aspect. Since then I have found that there are lots of reasonable explanations and that the Gospel accounts are not all written in chronological order. But I was disturbed about this at the time and I was just beginning my in depth study of the book of Ecclesiastes and right at the start I came up against Ecclesiastes 1:2 “All is vanity”. Why go on? I was deeply confused and troubled, I had come to love the scriptures and trust that they were the way to hear from God but it felt like their authority was totally undermined. I didn’t feel I could either dismiss this verse (what would be to stop me from dismissing any other verse?) but neither could I take it completely at face value because if “all” is vanity then there’s no point to anything.
+
+Something I remember well from around this time was that I was deeply troubled by finding what seemed to me to be inconsistencies between the Gospel accounts[^1]. I was sure the Bible was the word of God and should therefore be trustworthy in every aspect. Since then I have found that there are lots of reasonable explanations and that the Gospel accounts are not all written in chronological order. But I was disturbed about this at the time and I was just beginning my in depth study of the book of Ecclesiastes and right at the start I came up against Ecclesiastes 1:2 “All is vanity”. Why go on? I was deeply confused and troubled, I had come to love the scriptures and trust that they were the way to hear from God but it felt like their authority was totally undermined. I didn’t feel I could either dismiss this verse (what would be to stop me from dismissing any other verse?) but neither could I take it completely at face value because if “all” is vanity then there’s no point to anything.
 
 
 2 Timothy 3:16 says *“All scripture is breathed out by God and is profitable for teaching, for reproof, for correction and for training in righteousness that the man of God may be complete, equipped for every good work”*
@@ -57,9 +65,11 @@ Some people say that Solomon was not saved and that Ecclesiastes is a warning of
 So I think it is an exaggeration when he says “all” in the sentence “all is vanity”, but that he is warning that “all that many people live for is vanity” and that no-one, no matter how wise is not in danger of being drawn away into “Striving after the wind”.  
 
 ## Man’s insignificance
+
 Solomon begins by talking of lots of things that make a person’s life seem very small indeed. How we cannot change many things. How we cannot do anything new.  
 
 ### The futility of wisdom
+
 My attention was really grabbed by the end of chapter 1. I told you how much I value knowledge, wisdom, insight and cleverness. In the first chapter I came straight up against Solomon in his vast experience of life and his God given wisdom saying
 
 
@@ -68,13 +78,14 @@ For in much wisdom is much vexation, and he who increases in knowledge increases
 Ecc 1:17-18  
   
 ### Striving for greatness is “a striving after the wind”
+
 The wisdom of this passage took time to begin to sink in. I was studying this book in order to have things to tell others and frankly I wasn’t expecting to be taken to task by its message myself.
 
 
-It was intensely humbling to me to realise that:
-* I wasn’t going to understand everything in this book
-* Sometimes understanding eludes even the wise and godly
-* I was seeking to prove myself worthy and important by becoming wise, and it is a futile endeavor
+It was intensely humbling to me to realise that:  
+* I wasn’t going to understand everything in this book  
+* Sometimes understanding eludes even the wise and godly  
+* I was seeking to prove myself worthy and important by becoming wise, and it is a futile endeavor  
 
 
 This last point is something I still need to remind myself of. I still want to think of myself and want people to recognise me for being clever, wise and knowledgeable and I can easily slip into the trap of looking for my value in those things.
@@ -95,13 +106,13 @@ Matthew 7:3
 
 Disillusionment is generally humbling but when caught in an illusion it is wise to shatter it. It was hard for me to realise that the goal I was setting out to get was a goal that would not give me the satisfaction I was longing for. Becoming wise for the sake of my own vanity, is vanity. I will admit to you that this is still my struggle. 
 If not wisdom, then what?
-Before the pursuit of wisdom, Solomon goes through the pursuit of 
-* Pleasure
-* Drunkenness and fooling around
-* Great works, gardens, parks, pools
-* Slaves, herds, flocks
-* Silver, gold
-* Singers
+Before the pursuit of wisdom, Solomon goes through the pursuit of  
+* Pleasure  
+* Drunkenness and fooling around  
+* Great works, gardens, parks, pools  
+* Slaves, herds, flocks  
+* Silver, gold  
+* Singers  
 * Concubines  
 
 Some of these things are good and some of them the Bible tells us are sinful but counts them all as vanity. There may be things in that list some of you would quite like.
@@ -109,7 +120,7 @@ Some of these things are good and some of them the Bible tells us are sinful but
 
 Are all these pursuits mere vanity? 
 Is it possible to find our purpose in life?
-Many people never look ahead to think about where they are going in life. Ecclesiastes is a strong challenge to people to stop and think about where we’re going? Are you heading for satisfaction or regret?
+Many people never look ahead to think about where they are going in life. Ecclesiastes is a strong challenge to people to stop and think about where we’re going. Are you heading for satisfaction or regret?
 
 
 We live in a time when more and more people are secular in their thinking and do not believe in God. I think many of these people do not stop to think about their purpose in life. But in my curiosity to try to find out what purpose atheists may try to find in life I have spent some time reading the works of Fredrich Neitzsche. Neitzsche was a German philosopher. 
@@ -147,6 +158,7 @@ They know not, nor do they discern, for he has shut their eyes, so that they can
 That final questions always gives me pause to consider. I doubt I am any less prone than this man to fashion my own delusions and hold on to them.  
 
 ## Mortality
+
 Solomon speaks of death frequently. He is calling our attention to an uncomfortable truth. Mortality is a recurrent theme throughout the book of Ecclesiastes. It seems that every thought has to be examined using mortality as a lens to see if it still feels meaningful once the examination is over.
 
 
@@ -160,7 +172,9 @@ Solomon keeps asking difficult questions. I suspect that most people are like me
 
 
 We can live our lives never giving our mortality any thought, Solomon challenges his readers to put our distractions aside, be wise and confront the uncomfortable truth that we are mortal.
-Unexpected encouragement and comfort
+
+## Unexpected encouragement and comfort
+
 I said earlier that I was not expecting to be provoked and challenged by the book in the way I was. Neither, after being chastened by it, was I expecting it to become an ongoing source of encouragement and comfort to me.
 
 
@@ -170,6 +184,7 @@ I was chastened to see that part of the thing that drew me to the book was an un
 By far the greatest encouragement I had from the book was that it encouraged me to give up searching for my own ideas of how to achieve greatness and to instead seek to be humble. It deepened my understanding of just how complete my dependence is on God. How much I need him.  
 
 ## Conclusion
+
 Chapter 2 of Ecclesiastes ends with a call for us to acknowledge our position before God 
 
 *“for apart from him who can eat or who can have enjoyment?”*  
@@ -185,3 +200,5 @@ Jesus in his love for Peter asks him this question to make Peter think about how
 
 
 To those who ignore or reject God’s offer of salvation there is warning of judgement. To those who repent and believe in Jesus for forgiveness there is the promise of eternal life with him and our purpose in life is found in obedience and worship of God. The most encouraging thing is that the way is open to all regardless of what we’ve done, what we’re like, who we are or where we’ve come from. God has achieved what we cannot, in so many ways.
+
+[^1]: I was and still am confused and troubled about how to reconcile the account of creation (most easily understood to teach a relatively recent one) with the physical evidence of a very ancient universe. I still do not know how to reconcile this. It still troubles me. But I used to think if I only looked at things through a biblical lens, everything would be easily explained. People who believed in an old universe simply did so because they want to, mainly to avoid believing the Bible. I can't take such a simplistic view any more. I would like to understand, but I have come to accept that maybe I never will. The humility Ecclesiastes teaches has helped more than anything else with this spiritual wrestle, although Job has been very helpful too. Neither provide answers, both encourage faith in the face of perplexity.
