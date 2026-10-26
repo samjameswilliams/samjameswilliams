@@ -33,4 +33,42 @@ Adding surveys as a point group allows you to audit/verify. Keep it separate fro
 
 SHIFT + right mouse brings up snaps if in the middle of a command.  
 
-Move text to elevation moves text to the elevation of its text. 
+Move text to elevation moves text to the elevation of its text.
+
+## Session 2: Best practices for Modelling surfaces  
+
+### Data shortcuts
+
+Data shortcut is an xml from which you can create references.
+
+If you use x-refs you can only change the display style by changing the source. Data
+shortcuts can display objects in a different style to the source.
+
+Data shortcuts reflect changes to objects made in the source file (similar to x-refs).
+
+Data shortcuts allow you to conduct analysis (e.g. create a profile from a surface), 
+this is not possible in an x-ref.
+
+### Tiling/cropping a surface
+
+1. Select surface   
+2. Extract from surface  
+3. Create a cropped surface  
+
+Create a new drawing
+
+### TIN Surface
+
+Selecting low level of detail reduces detail as you zoom out for a performance boost.
+
+To remove badly interpolated areas from re-entrant shapes
+
+1. Limit size of triangles  
+2. Extract object > 3D polyline  
+3. Apply as boundary  
+4. Refine with additional points as required  
+
+### ReCap Pro  
+
+ReCap Pro can transform point clouds from various formats to rcs/rcp files which C3D can 
+read.
