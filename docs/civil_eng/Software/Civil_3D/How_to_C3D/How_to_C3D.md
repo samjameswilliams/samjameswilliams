@@ -51,8 +51,6 @@ I also turn this into a Featureline and add to a different site (to avoid intera
 select Grading Line for the Style (not sure if you need to but think you might),
 and "Assign elevations" is ticked.
 
-![top_edge_Featureline](image-6.png)  
-
 ![TSR_Village_South_grading_site](image-7.png)
 
 ![create_top_edge_featureline](image-8.png)
