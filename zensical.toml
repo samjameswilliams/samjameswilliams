@@ -326,4 +326,3 @@ line_spans = "__span"
 pygments_lang_class = true
 [project.markdown_extensions.pymdownx.inlinehilite]
 [project.markdown_extensions.pymdownx.snippets]
-[project.markdown_extensions.pymdownx.superfences]
