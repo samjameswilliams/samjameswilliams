@@ -148,3 +148,30 @@ To sort this out the Featureline can be added to the Surface as a Boundary.
 And there it is.
 
 ![Finished_slab](image-34.png)
+
+## Slope intersections  
+
+Where I have two gradients that intersect I initially overlap both gradings which need
+to be on separate Sites to ensure they don't interact. I then draw a polyline where the
+contours match.
+
+![PL_at_intersection](image-6.png)
+
+I convert this to a Featureline.
+
+![Convert_PL_to_FL](image-35.png)
+
+Make sure you add the featureline to the surface you want to keep. Check the elevations
+are what you want.
+
+![Elevation_editor](image-36.png)
+
+Then pull the elevations on the surface you want to keep to the desired grade.
+
+![Set_elevations_from_surface](image-37.png)
+
+This will give the desired slope intersection.
+
+![New_slope_and_old_overlay](image-38.png)
+
+![New_intersection_only](image-39.png)
