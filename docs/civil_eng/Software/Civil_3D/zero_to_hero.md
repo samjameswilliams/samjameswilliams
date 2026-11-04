@@ -72,3 +72,29 @@ To remove badly interpolated areas from re-entrant shapes
 
 ReCap Pro can transform point clouds from various formats to rcs/rcp files which C3D can 
 read.
+
+## Session 3: Feature lines and gradings  
+
+### Featurelines 
+
+You can define slopes rather than elevations if you want.
+
+They can be dynamically linked to other objects, e.g. surfaces.
+
+Weeding removes unnecessary PIs (points).
+
+Filleting is possible for Featurelines.  
+
+### Grading creation  
+
+"Volume base surface" is the surface you target if you target a surface.
+
+With volume tools you can automatically target the net cut/fill volume e.g. to balance 
+the cut/fill to zero.
+
+Flattest slope possible is 9999:1.
+
+You can create a finished surface by creating an empty surface and Pasting other 
+surfaces into it (right click to select, then edit and paste) 
+
+Analyse > Volumes dashboard
